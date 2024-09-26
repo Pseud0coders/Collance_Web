@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>Prakhar is working have Patience!</div>
+    <div className="text-3xl font-bold underline">Prakhar is working have Patience!</div>
   );
 }
 
