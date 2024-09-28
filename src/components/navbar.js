@@ -1,3 +1,5 @@
+
+
 import img1 from '../Collance_assets/Hero Section/NAV BAR/LOGO.png'
 import React from 'react';
 
@@ -36,3 +38,4 @@ export default function Navbar(){
         </>
          )
 }
+
