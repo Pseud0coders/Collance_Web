@@ -1,0 +1,83 @@
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.herobox{
+    height: 609px;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 120px;
+}
+
+
+.left_herobox{
+    text-wrap: nowrap;
+    height: 609px;
+    justify-content: end;
+    align-content: start;
+}
+
+
+.left_herobox > h1 {
+    font-family: Outfit;
+    line-height: 60.21px;
+    letter-spacing: 0.04em;
+    color : #03054E;
+}
+
+
+.search_form{
+    width: 580px;
+    border-radius: 40px;
+    background-color: #03054E;
+    top: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.search_form > input{
+    width: 474px;
+    left: -10px;
+    background-color: #03054E;  
+
+}
+
+
+.search_form  input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+
+.popular_section{
+    top: 65px;
+    left: 10px;
+    width: 500px;
+    padding: 15px 0px;
+}
+
+
+.search_option{
+    background-color: #023E8A;
+    font-size: small;
+    border-radius: 10px;
+}
+
+
+.hero_left_text{
+    top: 100px;
+    left: 10px;
+}
+ 
+
+.right_herobox{
+    grid-column: 2/3;
+    align-items: start;
+}
+
+
+.right_herobox > img{
+    height: 600px;
+    width: 600px;
+}
+
