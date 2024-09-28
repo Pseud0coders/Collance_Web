@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline">Prakhar is working have Patience!</div>
+    <Navbar/>
   );
 }
 
