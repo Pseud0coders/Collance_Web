@@ -1,9 +1,9 @@
-import HeroBox from './components/HeroBox';
-import logo from './logo.svg';
+import React from "react";
+// import HeroBox from './components/HeroBox'
 
 function App() {
   return (
-    
+    // <HeroBox/>
   );
 }
 
