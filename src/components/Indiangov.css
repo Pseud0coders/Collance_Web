@@ -1,0 +1,22 @@
+.indiangov_box{
+    margin: 40px 0px;
+}
+
+.indiangov {
+    background: linear-gradient(90deg, #FFA202 14.53%, #FFFFFF 47.67%, #80FF80 74.52%);
+    width: 1200px;
+    padding: 21px 291px 21px 291px;
+    gap: 20px;
+}
+
+.indiangov_text{
+    color: #03054E;
+    font-family: "Outfit", sans-serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* .indiangov_img{
+    height: 90px;
+} */
