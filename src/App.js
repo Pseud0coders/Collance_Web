@@ -1,9 +1,9 @@
 
-import HeroBox from './components/HeroBox'
+import Indiangov from './components/Indiangov';
 
 function App() {
   return (
-    <HeroBox/>
+    <Indiangov/>
   );
 }
 
