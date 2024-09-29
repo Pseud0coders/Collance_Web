@@ -1,9 +1,9 @@
-import React from "react";
-// import HeroBox from './components/HeroBox'
+
+import HeroBox from './components/HeroBox'
 
 function App() {
   return (
-    // <HeroBox/>
+    <HeroBox/>
   );
 }
 
