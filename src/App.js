@@ -1,9 +1,7 @@
 
-import WhyCollance from "./components/whycollance";
-
 function App() {
   return (
-    <WhyCollance/>
+    
   );
 }
 
