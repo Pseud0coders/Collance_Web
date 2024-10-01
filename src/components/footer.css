@@ -1,0 +1,29 @@
+.footer{
+    height: 593px;
+    background: #1A73E8;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 80px 120px;
+    color: aliceblue;
+}
+
+.collance , .product , .learning , .resources , .about {
+    grid-template-rows: 50px 30px 30px 30px 30px 30px 30px 30px;
+    gap: 10px; 
+}
+
+.footer_logo{
+    top: 365.76px;
+    left: 647px;
+}
+
+.footer_info{
+    top: 468.76px;
+    left: 621px;
+}
+
+.social_ref{
+    top: 530.76px;
+    left: 702px;
+}
+
+
