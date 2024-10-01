@@ -1,0 +1,19 @@
+.pick_them_gigs{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 400px;
+    width: 800px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_btn{
+    width: 560px;
+    display: flex;
+    justify-content: space-around;
+}
