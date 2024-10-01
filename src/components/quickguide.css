@@ -1,0 +1,52 @@
+.quickguide_container{
+    align-items: start;
+}
+
+.quickguide_box{
+    top: 80px;
+    width: 1134.11px;
+    height: 317.4px;
+    justify-content: left;
+}
+
+.header{
+    width: 365px;
+    color: #03045E;
+    font-family: Outfit;
+    line-height: 45.36px;
+}
+
+.header_bg1 , .header_bg2 {
+    width: 425.35px;
+    background: linear-gradient(90deg, rgba(143, 120, 243, 0.0816) 0%, rgba(143, 120, 243, 0.68) 100%);
+    z-index: -2;
+}
+
+.header_bg1{
+    top: -23px;
+    left: -35px;
+}
+
+
+.header_bg2{
+    top: -23px;
+    left: -71px;
+    transform: rotate(348deg);
+}
+
+.panel_box{
+    top: 74px;
+}
+
+.panel{
+    width: 336.46px;
+    border-radius: 28px;
+    background: #1A73E8;
+    box-shadow: 0px 4px 4px 0px #03045E inset,8px 8px 32px 8px #0D0F9F66;
+}
+
+.btn_name{
+    font-family: Inter;
+    line-height: 43.57px;
+    color: #FFFFFF;
+}
