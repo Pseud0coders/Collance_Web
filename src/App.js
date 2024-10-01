@@ -1,9 +1,9 @@
 
-import WhyCollance from "./components/whycollance";
+import FindThemGigs from "./components/findthemgigs";
 
 function App() {
   return (
-    <WhyCollance/>
+    <FindThemGigs/>
   );
 }
 
