@@ -1,8 +1,8 @@
-import QuickGuide from "./components/quickguide";
+import Gigsmadesimpler from "./components/gigsmadesimpler";
 
 function App() {
   return (
-    <QuickGuide/>
+    <Gigsmadesimpler/>
   );
 }
 
