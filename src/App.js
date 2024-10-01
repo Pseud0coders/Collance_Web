@@ -1,8 +1,8 @@
-import SkilledFreelance from "./components/skilledfreelance";
+import QuickGuide from "./components/quickguide";
 
 function App() {
   return (
-    <SkilledFreelance/>
+    <QuickGuide/>
   );
 }
 
