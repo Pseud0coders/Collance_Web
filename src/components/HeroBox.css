@@ -1,12 +1,10 @@
-*{
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-}
+
 
 .herobox{
     height: 609px;
     grid-template-columns: 1fr 1fr;
     padding: 40px 120px;
+    top: 0px;
 }
 
 

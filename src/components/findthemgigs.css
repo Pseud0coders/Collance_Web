@@ -1,4 +1,6 @@
-
+.section_box{
+    top: 180px;
+}
 
 .pick_them_gigs{
     top: 80px;
@@ -20,7 +22,7 @@
     color: #FFFFFF;
 }
 
-.text{
+.pick_them_gigs_text{
     width: 649px;
     top: 20px;
     left: 66px;

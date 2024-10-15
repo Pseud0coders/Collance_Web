@@ -4,6 +4,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 80px 120px;
     color: aliceblue;
+    top: 600px;
+    width: 100%;
 }
 
 .collance , .product , .learning , .resources , .about {
@@ -14,6 +16,7 @@
 .footer_logo{
     top: 365.76px;
     left: 647px;
+    width: 250px;
 }
 
 .footer_info{

@@ -4,10 +4,10 @@ import social from '../Collance_assets/Footer/socials.png'
 
 export default function Footer() {
     return(
-        <div className="footer w-screen grid">
-            <img className='social_ref absolute' src={social} alt="" />
+        <div className="footer w-screen grid relative">
+            <img className='social_ref absolute' src={social} alt="img" />
             <div className="footer_info absolute">&copy; 2024 Collance.com . All rights reserverd.</div>
-            <img className='footer_logo absolute w-64 h-16' src={img} alt="" />
+            <img className='footer_logo absolute w-64 h-16' src={img} alt="social img" />
             <div className="collance grid justify-center">
                 <h3 className="text-lg">Collance</h3>
                 <a className="text-sm" href="">Pricing</a>
@@ -42,6 +42,7 @@ export default function Footer() {
                 <a className="text-sm" href="">Legal</a>
                 <a className="text-sm" href="">Help</a>
             </div>
+            
         </div>
     )
 }

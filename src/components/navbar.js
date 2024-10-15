@@ -2,13 +2,14 @@
 
 import img1 from '../Collance_assets/Hero Section/NAV BAR/LOGO.png'
 import React from 'react';
+import './navbar.css';
 
 export default function Navbar(){
 
     return(
         <>
-<nav class="bg-white border-gray-200 ">
-  <div class="max-w-screen-xl flex flex-wrap items-center overflow-hidden justify-between  p-4">
+<nav class="navbar bg-white border-gray-200 ">
+  <div class=" flex flex-wrap items-center overflow-hidden justify-between  p-4">
     
         <img src={img1} className="h-12 object-cover ml-6" alt="CollanceLogo" />
     <div className="hidden w-full md:block md:w-auto">

@@ -6,8 +6,7 @@ import ornament from '../Collance_assets/whycollanceassets/Ornament35.png'
 
 export default function WhyCollance() {
     return(
-        <div className="whycollance h-auto w-screen grid flex-col justify-center relative">
-            {/* <div className="blur_color"></div> */}
+        <div className="whycollance h-auto  grid flex-col justify-center relative">
             <img className='ornament1 absolute' src={ornament} alt="" />
             <img className='ornament2 absolute' src={ornament} alt="" />
             <img className='ornament3 absolute' src={ornament} alt="" />

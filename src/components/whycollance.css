@@ -1,7 +1,7 @@
 .whycollance{
     margin: 40px 0px;
     gap: 80px;
-    
+    top: 150px;
 }
 
 .header_box{
@@ -14,6 +14,8 @@
     grid-template-columns: 473px;
     grid-template-rows: 106px;
     grid-template-areas: "main";
+    position: relative;
+    left:0px;
 }
 
 .text{

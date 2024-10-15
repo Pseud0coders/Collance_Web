@@ -13,7 +13,7 @@ export default function FindThemGigs(){
             <div className="pick_them_gigs relative grid">
                 <div className="content flex flex-col justify-around items-start">
                     <div className="header relative h-12 text-4xl font-semibold text-left">PICK THEM GIGS</div>
-                    <div className="text relative h-40 text-xl font-medium leading-6 text-left"><Text text={text1}/></div>
+                    <div className="pick_them_gigs_text relative h-40 text-xl font-medium leading-6 text-left"><Text text={text1}/></div>
                     <div className="footer_btn flex justify-around">
                         <div className="btn h-20 w-56  flex justify-center items-center "><Button placeholder={"BY PROJECTS"}/></div>
                         <div className="btn h-20 w-56  flex justify-center items-center "><Button placeholder={"BY TALENT POOL"}/></div>

@@ -1,5 +1,6 @@
 .quickguide_container{
     align-items: start;
+    top: 420px;
 }
 
 .quickguide_box{
@@ -14,6 +15,7 @@
     color: #03045E;
     font-family: Outfit;
     line-height: 45.36px;
+    top: 0px;
 }
 
 .header_bg1 , .header_bg2 {

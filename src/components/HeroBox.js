@@ -4,7 +4,7 @@ import './HeroBox.css'
 
 export default function HeroBox() {
     return(
-        <div className="herobox w-full grid">
+        <div className="herobox relative w-full grid">
             <Left_HeroBox/>
             <Right_HeroBox/>   
         </div>

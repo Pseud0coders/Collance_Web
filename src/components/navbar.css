@@ -1,0 +1,8 @@
+.navbar{
+    top: 0px;
+}
+
+.navbar > div{
+    max-width: 100vw;
+    padding-right: 60px;
+}
