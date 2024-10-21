@@ -33,18 +33,26 @@
 }
 
 
+
 .search_form > input{
-    width: 444px;
+    color: aliceblue;
+    width: 445px;
     left: -10px;
     background-color: #03054E;  
     height: 70px;
-
+    border: none;
+    outline: none;
 }
+
+.search_form:click
+
 
 
 .search_form  input::placeholder {
-    color: white;
     font-size: 20px;
+}
+.search_form  input:focus::placeholder {
+    opacity: 0;
 }
 
 
