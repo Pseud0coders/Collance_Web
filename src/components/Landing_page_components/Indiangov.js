@@ -1,5 +1,5 @@
 import './Indiangov.css'
-import img3 from '../Collance_assets/Indian Gov/INDIANGOV.png'
+import img3 from '../../Collance_assets/Landing_page_assets/Indian Gov/INDIANGOV.png'
 
 export default function Indiangov() {
     return(

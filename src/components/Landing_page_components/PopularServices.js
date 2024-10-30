@@ -1,12 +1,12 @@
 import './PopularServices.css'
-import CardBubble from '../Collance_assets/POPULAR SERVICES/cardbubble'
-import Headerbubble from '../Collance_assets/POPULAR SERVICES/Headerbubble'
-import img12 from '../Collance_assets/POPULAR SERVICES/pos12.png'
-import img14 from '../Collance_assets/POPULAR SERVICES/pos14.jpg'
-import img21 from '../Collance_assets/POPULAR SERVICES/pos21.jpg'
-import img23 from '../Collance_assets/POPULAR SERVICES/pos23.jpeg'
-import img25 from '../Collance_assets/POPULAR SERVICES/pos25.jpg'
-import arrowbtn from '../Collance_assets/POPULAR SERVICES/external-link.png'
+import CardBubble from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/cardbubble'
+import Headerbubble from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/Headerbubble'
+import img12 from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/pos12.png'
+import img14 from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/pos14.jpg'
+import img21 from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/pos21.jpg'
+import img23 from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/pos23.jpeg'
+import img25 from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/pos25.jpg'
+import arrowbtn from '../../Collance_assets/Landing_page_assets/POPULAR SERVICES/external-link.png'
 
 export default function PopularServices() {
     return(

@@ -1,7 +1,7 @@
 import './quickguide.css'
-import icon1 from '../Collance_assets/QUICK GUIDES TO/Connect.png'
-import icon2 from '../Collance_assets/QUICK GUIDES TO/NFT Collection.png'
-import icon3 from '../Collance_assets/QUICK GUIDES TO/Link.png'
+import icon1 from '../../Collance_assets/Landing_page_assets/QUICK GUIDES TO/Connect.png'
+import icon2 from '../../Collance_assets/Landing_page_assets/QUICK GUIDES TO/NFT Collection.png'
+import icon3 from '../../Collance_assets/Landing_page_assets/QUICK GUIDES TO/Link.png'
 
 export default function QuickGuide(){
     return(

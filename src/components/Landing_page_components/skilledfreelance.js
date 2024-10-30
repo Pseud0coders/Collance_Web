@@ -1,7 +1,7 @@
 import './skilledfreelance.css'
-import img from '../Collance_assets/Skilled Freelance Sections/man.jpeg'
-import Ornament1 from '../Collance_assets/Skilled Freelance Sections/ornament1'
-import Ornament2 from '../Collance_assets/Skilled Freelance Sections/ornament2'
+import img from '../../Collance_assets/Landing_page_assets/Skilled Freelance Sections/man.jpeg'
+import Ornament1 from '../../Collance_assets/Landing_page_assets/Skilled Freelance Sections/ornament1'
+import Ornament2 from '../../Collance_assets/Landing_page_assets/Skilled Freelance Sections/ornament2'
 
 export default function SkilledFreelance() {
     return(

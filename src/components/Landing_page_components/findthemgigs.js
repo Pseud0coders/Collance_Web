@@ -1,6 +1,6 @@
 import './findthemgigs.css'
-import img from '../Collance_assets/pick them gig/Picture For Card.jpg'
-import Ornament from '../Collance_assets/pick them gig/ornament';
+import img from '../../Collance_assets/Landing_page_assets/pick them gig/Picture For Card.jpg'
+import Ornament from '../../Collance_assets/Landing_page_assets/pick them gig/ornament';
 
 export default function FindThemGigs(){
 

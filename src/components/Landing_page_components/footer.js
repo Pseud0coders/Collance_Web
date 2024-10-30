@@ -1,6 +1,6 @@
 import './footer.css'
-import img from '../Collance_assets/Footer/LOGO.png'
-import social from '../Collance_assets/Footer/socials.png'
+import img from '../../Collance_assets/Landing_page_assets/Footer/LOGO.png'
+import social from '../../Collance_assets/Landing_page_assets/Footer/socials.png'
 
 export default function Footer() {
     return(

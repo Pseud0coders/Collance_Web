@@ -1,5 +1,5 @@
-import img2 from '../Collance_assets/Hero Section/Hero Bar/deskman.jpg'
-import search_icon from '../Collance_assets/Hero Section/Hero Bar/searchicon.png'
+import img2 from '../../Collance_assets/Landing_page_assets/Hero Section/Hero Bar/deskman.jpg'
+import search_icon from '../../Collance_assets/Landing_page_assets/Hero Section/Hero Bar/searchicon.png'
 import './HeroBox.css'
 
 export default function HeroBox() {

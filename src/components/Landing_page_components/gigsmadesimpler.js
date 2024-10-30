@@ -1,5 +1,5 @@
 import './gigsmadesimpler.css'
-import img from '../Collance_assets/Gigs Made Simpler/Footer Image.png'
+import img from '../../Collance_assets/Landing_page_assets/Gigs Made Simpler/Footer Image.png'
 
 export default function Gigsmadesimpler() {
 

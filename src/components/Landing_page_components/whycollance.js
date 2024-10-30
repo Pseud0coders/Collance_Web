@@ -1,8 +1,8 @@
 import './whycollance.css'
-import img1 from '../Collance_assets/whycollanceassets/Lock.png'
-import img2 from '../Collance_assets/whycollanceassets/Star.png'
-import img3 from '../Collance_assets/whycollanceassets/People.png'
-import ornament from '../Collance_assets/whycollanceassets/Ornament35.png'
+import img1 from '../../Collance_assets/Landing_page_assets/whycollanceassets/Lock.png'
+import img2 from '../../Collance_assets/Landing_page_assets/whycollanceassets/Star.png'
+import img3 from '../../Collance_assets/Landing_page_assets/whycollanceassets/People.png'
+import ornament from '../../Collance_assets/Landing_page_assets/whycollanceassets/Ornament35.png'
 
 export default function WhyCollance() {
     return(
