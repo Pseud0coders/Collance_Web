@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Collance_Web/static/css/main.ce2fdd05.css",
+    "main.js": "/Collance_Web/static/js/main.67683e9a.js",
+    "static/js/453.a635fba5.chunk.js": "/Collance_Web/static/js/453.a635fba5.chunk.js",
+    "static/media/pos23.jpeg": "/Collance_Web/static/media/pos23.082bdad7e723381a3ee7.jpeg",
+    "static/media/pos21.jpg": "/Collance_Web/static/media/pos21.dfc1c50ff5f6f45b4107.jpg",
+    "static/media/pos12.png": "/Collance_Web/static/media/pos12.5a32dea87605aa9dd8a2.png",
+    "static/media/Picture For Card.jpg": "/Collance_Web/static/media/Picture For Card.f6eccd4ac2cb93ccbe56.jpg",
+    "static/media/man.jpeg": "/Collance_Web/static/media/man.05bda8a8c6bfdc3f6734.jpeg",
+    "static/media/deskman.jpg": "/Collance_Web/static/media/deskman.fd6f7520d88e68f712ad.jpg",
+    "static/media/INDIANGOV.png": "/Collance_Web/static/media/INDIANGOV.22f682517fbc875feb53.png",
+    "static/media/Footer Image.png": "/Collance_Web/static/media/Footer Image.4496e43f6fbdc6c8dc21.png",
+    "static/media/pos25.jpg": "/Collance_Web/static/media/pos25.1d3144ccc5a2e4dfa9c8.jpg",
+    "static/media/pos14.jpg": "/Collance_Web/static/media/pos14.a111f67a251de3067623.jpg",
+    "static/media/LOGO.png": "/Collance_Web/static/media/LOGO.ee8b13e5d449df64b2cb.png",
+    "index.html": "/Collance_Web/index.html",
+    "main.ce2fdd05.css.map": "/Collance_Web/static/css/main.ce2fdd05.css.map",
+    "main.67683e9a.js.map": "/Collance_Web/static/js/main.67683e9a.js.map",
+    "453.a635fba5.chunk.js.map": "/Collance_Web/static/js/453.a635fba5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce2fdd05.css",
+    "static/js/main.67683e9a.js"
+  ]
+}
