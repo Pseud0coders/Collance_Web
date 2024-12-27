@@ -27,9 +27,9 @@ function Popular_section() {
     return(
         <ul className='popular_section relative flex justify-between'>
             <li className='popular_search p-2 text-base font-semibold'>Popular Searches :</li>
-            <li className='search_option text-white h-10 w-auto p-2'>Logo Design</li>
-            <li className='search_option text-white h-10 w-auto p-2'>Automation</li>
-            <li className='search_option  text-white h-10 w-auto p-2'>Video Editing</li>
+            <li className='search_option text-white h-10 w-auto p-2 transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>Logo Design</li>
+            <li className='search_option text-white h-10 w-auto p-2  transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>Automation</li>
+            <li className='search_option  text-white h-10 w-auto p-2  transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none'>Video Editing</li>
         </ul>
     )
 }
