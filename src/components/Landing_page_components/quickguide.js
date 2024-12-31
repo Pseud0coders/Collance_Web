@@ -23,7 +23,7 @@ export default function QuickGuide(){
 
 function Panel({icon_path , btn_name}) {
     return(
-        <div className="panel h-48 flex justify-center items-center">
+        <div className="panel h-48 flex justify-center items-center transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             <div className="icon"><img src={icon_path} alt="" /></div>
             <div className="btn_name w-48 h-24 text-4xl font-bold text-center">{btn_name}</div>    
         </div>
