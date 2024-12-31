@@ -6,20 +6,20 @@ import ornament from '../../Collance_assets/Landing_page_assets/whycollanceasset
 
 export default function WhyCollance() {
     return(
-        <div className="whycollance h-auto  grid flex-col justify-center relative">
+        <div className="whycollance h-auto  grid flex-col justify-center relative animate-appear">
             <img className='ornament1 absolute' src={ornament} alt="" />
             <img className='ornament2 absolute' src={ornament} alt="" />
             <img className='ornament3 absolute' src={ornament} alt="" />
             <Header/>
             <div className="carbox h-auto grid">
                 <Vertical_separator/>
-                <div className="card1">
+                <div className="card1 transition-all duration-300 hover:transla hover:shadow-[0px_14px_9px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
                     <Card image={img1} title="SECURE PAYMENTS" content="With Collance, your earnings are protected through an escrow system, ensuring safe and timely payments, including options for crypto and Web3 transactions." />
                 </div>
-                <div className="card2">
+                <div className="card2 transition-all duration-300 hover:transla hover:shadow-[0px_14px_9px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
                     <Card image={img2} title="OPPORTUNITIES" content="With Collance, your earnings are protected through an escrow system, ensuring safe and timely payments, including options for crypto and Web3 transactions." />
                 </div>
-                <div className="card3">
+                <div className="card3 transition-all duration-300 hover:transla hover:shadow-[0px_14px_9px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
                     <Card image={img3} title="COLLABORATION" content="With Collance, your earnings are protected through an escrow system, ensuring safe and timely payments, including options for crypto and Web3 transactions." />
                 </div>
             </div>

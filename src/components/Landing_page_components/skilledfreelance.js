@@ -5,7 +5,7 @@ import Ornament2 from '../../Collance_assets/Landing_page_assets/Skilled Freelan
 
 export default function SkilledFreelance() {
     return(
-        <div className="skilledfreelance_container flex justify-center items-center relative">
+        <div className="skilledfreelance_container flex justify-center items-center relative animate-appear">
             <div className="skilledfreelance_ornament1 absolute"><Ornament1/></div>
             <div className="skilledfreelance_ornament2 absolute"><Ornament2/></div>
             <div className="skilledfreelance grid">
@@ -17,8 +17,8 @@ export default function SkilledFreelance() {
                         <div className="skilledfreelance_text2 relative h-32 text-xl font-medium leading-6 text-left"> Collance connects you with new freelancers eager to bring innovation and energy to your projects.</div>
                     </div>
                     <div className="skilledfreelance_footer_btn flex justify-between relative">
-                        <div className="skilledfreelance_btn h-16 flex justify-center items-center">COLLABORATE</div>
-                        <div className="skilledfreelance_btn h-16 flex justify-center items-center">FIND OPPUTUNITIES</div>
+                        <div className="skilledfreelance_btn h-16 flex justify-center items-center transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">COLLABORATE</div>
+                        <div className="skilledfreelance_btn h-16 flex justify-center items-center transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">FIND OPPUTUNITIES</div>
                     </div>
                 </div>
             </div>

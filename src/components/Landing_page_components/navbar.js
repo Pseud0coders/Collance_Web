@@ -27,10 +27,10 @@ export default function Navbar(){
           <a href="#" className="block py-2 px-3 text-custom-blue font-black rounded">Explore</a>
         </li>
         <li>
-          <button className="block py-2 px-3 ml-8 text-white bg-custom-blue font-black rounded-full">Signup</button>
+          <button className="block py-2 px-3 ml-8 text-white bg-custom-blue font-black rounded-lg transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">Signup</button>
         </li>
         <li>
-          <button className="block py-2 px-3 text-white bg-custom-blue font-black rounded-full">Login</button>
+          <button className="block py-2 px-3 text-white bg-custom-blue font-black rounded-lg transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">Login</button>
         </li>
       </ul>
     </div>

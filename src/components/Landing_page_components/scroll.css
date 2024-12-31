@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-appear {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-duration: 1s; /* Adjust duration as needed */
+  animation-fill-mode: forwards;
+  animation-range: entry 0% cover 40% /* Ensures the final state is maintained */
+}
