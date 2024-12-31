@@ -12,8 +12,8 @@ export default function FindThemGigs(){
             <div className="oranament2 absolute"><Ornament/></div>
             <div className="pick_them_gigs relative grid">
                 <div className="content flex flex-col justify-around items-start">
-                    <div className="header relative h-12 text-4xl font-semibold text-left">PICK THEM GIGS</div>
-                    <div className="pick_them_gigs_text relative h-40 text-xl font-medium leading-6 text-left"><Text text={text1}/></div>
+                    <div className="pickthemheader relative h-12 text-4xl font-semibold text-left">PICK THEM GIGS</div>
+                    <div className="pick_them_gigs_text relative h-40 text-xl font-medium leading-9 text-left"><Text text={text1}/></div>
                     <div className="footer_btn flex justify-around">
                         <div className="btn h-20 w-56  flex justify-center items-center transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none "><Button placeholder={"BY PROJECTS"}/></div>
                         <div className="btn h-20 w-56  flex justify-center items-center transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_grey] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"><Button placeholder={"BY TALENT POOL"}/></div>

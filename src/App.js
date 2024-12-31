@@ -9,21 +9,71 @@ import QuickGuide from "./components/Landing_page_components/quickguide";
 import SkilledFreelance from "./components/Landing_page_components/skilledfreelance";
 import WhyCollance from "./components/Landing_page_components/whycollance";
 import './App.css';
+import Login from "./components/Landing_page_components/Login";
+import Register from "./components/Landing_page_components/Register";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
+
+
+
 
 function App() {
+
+  const Router = createBrowserRouter([
+    {
+      path : "/",
+      element : <Layout/>,
+      children : [
+      {
+        path : "",
+        element : <Home/>
+      },
+      {
+        path : "/login",
+        element : <Login/>
+      },
+      {
+        path : "/signup",
+        element : <Register/>
+      }
+      ]
+    }
+  ])
+
+  
   return (
+    <RouterProvider router={Router}>
+      
+      <Layout/>
+    </RouterProvider>
+  );
+}
+
+function Layout() {
+
+  return(
+    <>
     <div className="web_box">
     <Navbar/>
-    <HeroBox/>
-    <Indiangov/>
-    <PopularServices/>
-    <WhyCollance/>
-    <FindThemGigs/>
-    <SkilledFreelance/>
-    <QuickGuide/>
-    <Gigsmadesimpler/>
-    <Footer/>
+    <Outlet/>    
+
     </div>
+    </>
+  );
+}
+
+function Home() {
+  return(
+    <>
+      <HeroBox/>
+      <Indiangov/>
+      <PopularServices/>
+      <WhyCollance/>
+      <FindThemGigs/>
+      <SkilledFreelance/>
+      <QuickGuide/>
+      <Gigsmadesimpler/>
+      <Footer/>
+    </>
   );
 }
 
